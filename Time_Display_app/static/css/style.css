@@ -1,0 +1,36 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* the body */
+body {
+    background-color: #474545;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Flex row */
+.row {
+    display: flex;
+}
+
+
+/* Flex col */
+.col {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    flex: 1;
+    text-align: center;
+}
